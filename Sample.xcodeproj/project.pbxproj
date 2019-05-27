@@ -12,6 +12,7 @@
 		4A068B01229C24B000FD8832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A068AFF229C24B000FD8832 /* Main.storyboard */; };
 		4A068B03229C24B100FD8832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A068B02229C24B100FD8832 /* Assets.xcassets */; };
 		4A068B06229C24B100FD8832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A068B04229C24B100FD8832 /* LaunchScreen.storyboard */; };
+		4A068B0E229C2BA900FD8832 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A068B0D229C2BA900FD8832 /* SuperViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4A068B02229C24B100FD8832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A068B05229C24B100FD8832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A068B07229C24B100FD8832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A068B0D229C2BA900FD8832 /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4A068AFB229C24B000FD8832 /* AppDelegate.swift */,
 				4A068AFD229C24B000FD8832 /* ViewController.swift */,
+				4A068B0D229C2BA900FD8832 /* SuperViewController.swift */,
 				4A068AFF229C24B000FD8832 /* Main.storyboard */,
 				4A068B02229C24B100FD8832 /* Assets.xcassets */,
 				4A068B04229C24B100FD8832 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A068AFE229C24B000FD8832 /* ViewController.swift in Sources */,
+				4A068B0E229C2BA900FD8832 /* SuperViewController.swift in Sources */,
 				4A068AFC229C24B000FD8832 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
