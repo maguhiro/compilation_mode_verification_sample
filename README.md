@@ -1,0 +1,2 @@
+# compilation_mode_verification_sample
+SwiftのCompilationModeによる差異を検証
