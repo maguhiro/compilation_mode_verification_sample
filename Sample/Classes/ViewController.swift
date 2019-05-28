@@ -13,6 +13,7 @@ class ViewController: SuperViewController {
 
 extension ViewController {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    // このコードが条件を満たすと呼び出されなくなる
     print("Tap \(indexPath.row)!")
     tableView.deselectRow(at: indexPath, animated: true)
   }
