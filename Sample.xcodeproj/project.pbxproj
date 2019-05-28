@@ -13,9 +13,6 @@
 		4A068B03229C24B100FD8832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A068B02229C24B100FD8832 /* Assets.xcassets */; };
 		4A068B06229C24B100FD8832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A068B04229C24B100FD8832 /* LaunchScreen.storyboard */; };
 		4A068B0E229C2BA900FD8832 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A068B0D229C2BA900FD8832 /* SuperViewController.swift */; };
-		E3A1A9E9229CFAC200AEC2F9 /* SecondCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1A9E7229CFAC200AEC2F9 /* SecondCollectionViewController.swift */; };
-		E3A1A9EA229CFAC200AEC2F9 /* SecondCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A1A9E8229CFAC200AEC2F9 /* SecondCollectionViewController.xib */; };
-		E3A1A9EC229CFD2A00AEC2F9 /* SuperCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1A9EB229CFD2A00AEC2F9 /* SuperCollectionViewController.swift */; };
 		E3A1A9EE229D3A7900AEC2F9 /* UnrelatedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1A9ED229D3A7900AEC2F9 /* UnrelatedClass.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +25,6 @@
 		4A068B05229C24B100FD8832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A068B07229C24B100FD8832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A068B0D229C2BA900FD8832 /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
-		E3A1A9E7229CFAC200AEC2F9 /* SecondCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewController.swift; sourceTree = "<group>"; };
-		E3A1A9E8229CFAC200AEC2F9 /* SecondCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCollectionViewController.xib; sourceTree = "<group>"; };
-		E3A1A9EB229CFD2A00AEC2F9 /* SuperCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCollectionViewController.swift; sourceTree = "<group>"; };
 		E3A1A9ED229D3A7900AEC2F9 /* UnrelatedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnrelatedClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +58,6 @@
 		4A068AFA229C24B000FD8832 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				E3A1A9E6229CFA9700AEC2F9 /* CollectionViewController */,
 				4A068AFB229C24B000FD8832 /* AppDelegate.swift */,
 				4A068AFD229C24B000FD8832 /* ViewController.swift */,
 				4A068B0D229C2BA900FD8832 /* SuperViewController.swift */,
@@ -75,16 +68,6 @@
 				E3A1A9ED229D3A7900AEC2F9 /* UnrelatedClass.swift */,
 			);
 			path = Sample;
-			sourceTree = "<group>";
-		};
-		E3A1A9E6229CFA9700AEC2F9 /* CollectionViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E3A1A9E7229CFAC200AEC2F9 /* SecondCollectionViewController.swift */,
-				E3A1A9E8229CFAC200AEC2F9 /* SecondCollectionViewController.xib */,
-				E3A1A9EB229CFD2A00AEC2F9 /* SuperCollectionViewController.swift */,
-			);
-			path = CollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +130,6 @@
 			files = (
 				4A068B06229C24B100FD8832 /* LaunchScreen.storyboard in Resources */,
 				4A068B03229C24B100FD8832 /* Assets.xcassets in Resources */,
-				E3A1A9EA229CFAC200AEC2F9 /* SecondCollectionViewController.xib in Resources */,
 				4A068B01229C24B000FD8832 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,8 +144,6 @@
 				4A068AFC229C24B000FD8832 /* AppDelegate.swift in Sources */,
 				E3A1A9EE229D3A7900AEC2F9 /* UnrelatedClass.swift in Sources */,
 				4A068AFE229C24B000FD8832 /* ViewController.swift in Sources */,
-				E3A1A9E9229CFAC200AEC2F9 /* SecondCollectionViewController.swift in Sources */,
-				E3A1A9EC229CFD2A00AEC2F9 /* SuperCollectionViewController.swift in Sources */,
 				4A068B0E229C2BA900FD8832 /* SuperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

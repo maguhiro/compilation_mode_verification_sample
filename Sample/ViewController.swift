@@ -14,7 +14,6 @@ class ViewController: SuperViewController {
 extension ViewController {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     print("Tap \(indexPath.row)!")
-    present(SecondCollectionViewController(nibName: "SecondCollectionViewController", bundle: nil), animated: true)
     tableView.deselectRow(at: indexPath, animated: true)
   }
 }
