@@ -16,6 +16,7 @@
 		E3A1A9E9229CFAC200AEC2F9 /* SecondCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1A9E7229CFAC200AEC2F9 /* SecondCollectionViewController.swift */; };
 		E3A1A9EA229CFAC200AEC2F9 /* SecondCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A1A9E8229CFAC200AEC2F9 /* SecondCollectionViewController.xib */; };
 		E3A1A9EC229CFD2A00AEC2F9 /* SuperCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1A9EB229CFD2A00AEC2F9 /* SuperCollectionViewController.swift */; };
+		E3A1A9EE229D3A7900AEC2F9 /* UnrelatedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1A9ED229D3A7900AEC2F9 /* UnrelatedClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E3A1A9E7229CFAC200AEC2F9 /* SecondCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewController.swift; sourceTree = "<group>"; };
 		E3A1A9E8229CFAC200AEC2F9 /* SecondCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCollectionViewController.xib; sourceTree = "<group>"; };
 		E3A1A9EB229CFD2A00AEC2F9 /* SuperCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCollectionViewController.swift; sourceTree = "<group>"; };
+		E3A1A9ED229D3A7900AEC2F9 /* UnrelatedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnrelatedClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				4A068B02229C24B100FD8832 /* Assets.xcassets */,
 				4A068B04229C24B100FD8832 /* LaunchScreen.storyboard */,
 				4A068B07229C24B100FD8832 /* Info.plist */,
+				E3A1A9ED229D3A7900AEC2F9 /* UnrelatedClass.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -156,11 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A068AFE229C24B000FD8832 /* ViewController.swift in Sources */,
-				4A068B0E229C2BA900FD8832 /* SuperViewController.swift in Sources */,
-				E3A1A9EC229CFD2A00AEC2F9 /* SuperCollectionViewController.swift in Sources */,
-				E3A1A9E9229CFAC200AEC2F9 /* SecondCollectionViewController.swift in Sources */,
 				4A068AFC229C24B000FD8832 /* AppDelegate.swift in Sources */,
+				E3A1A9EE229D3A7900AEC2F9 /* UnrelatedClass.swift in Sources */,
+				4A068AFE229C24B000FD8832 /* ViewController.swift in Sources */,
+				E3A1A9E9229CFAC200AEC2F9 /* SecondCollectionViewController.swift in Sources */,
+				E3A1A9EC229CFD2A00AEC2F9 /* SuperCollectionViewController.swift in Sources */,
+				4A068B0E229C2BA900FD8832 /* SuperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
