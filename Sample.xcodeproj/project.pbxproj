@@ -58,16 +58,24 @@
 		4A068AFA229C24B000FD8832 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				4A068AFB229C24B000FD8832 /* AppDelegate.swift */,
-				4A068AFD229C24B000FD8832 /* ViewController.swift */,
-				4A068B0D229C2BA900FD8832 /* SuperViewController.swift */,
-				4A068AFF229C24B000FD8832 /* Main.storyboard */,
+				E3A1A9F1229D40CE00AEC2F9 /* Classes */,
 				4A068B02229C24B100FD8832 /* Assets.xcassets */,
 				4A068B04229C24B100FD8832 /* LaunchScreen.storyboard */,
+				4A068AFF229C24B000FD8832 /* Main.storyboard */,
 				4A068B07229C24B100FD8832 /* Info.plist */,
-				E3A1A9ED229D3A7900AEC2F9 /* UnrelatedClass.swift */,
 			);
 			path = Sample;
+			sourceTree = "<group>";
+		};
+		E3A1A9F1229D40CE00AEC2F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A068AFB229C24B000FD8832 /* AppDelegate.swift */,
+				4A068B0D229C2BA900FD8832 /* SuperViewController.swift */,
+				4A068AFD229C24B000FD8832 /* ViewController.swift */,
+				E3A1A9ED229D3A7900AEC2F9 /* UnrelatedClass.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
