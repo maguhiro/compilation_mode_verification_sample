@@ -2,7 +2,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class SecondCollectionViewController: UICollectionViewController {
+class SecondCollectionViewController: SuperCollectionViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -25,5 +25,13 @@ class SecondCollectionViewController: UICollectionViewController {
 
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     dismiss(animated: true)
+  }
+}
+
+extension SecondCollectionViewController {
+  func collectionView(_ collectionView: UICollectionView,
+                      layout collectionViewLayout: UICollectionViewLayout,
+                      sizeForItemAt indexPath: IndexPath) -> CGSize {
+    return CGSize(width: 100, height: 100)
   }
 }
